@@ -19,6 +19,7 @@ export class HomePage{
   ClickButton(){
     this.navCtrl.push(UsuariosPage);
   }
+
   // ionViewDidLoad(){
   //   this.userService.getUsers()
   //   .subscribe(

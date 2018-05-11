@@ -1,15 +1,15 @@
 <ion-header>
     <ion-navbar>
-      <button ion-button menuToggle>
-        <ion-icon name="Registro"></ion-icon>
-      </button>
-      <ion-title>Registro</ion-title>
+        <button ion-button menuToggle>
+            <ion-icon name="Registro"></ion-icon>
+        </button>
+        <ion-title>Registro</ion-title>
     </ion-navbar>
-  </ion-header>
-  
-  <ion-content padding>
+</ion-header>
+
+<ion-content padding>
     <ion-list>
-        
+
         <ion-item>
             <ion-label floating>Nombre</ion-label>
             <ion-input [(ngModel)]="nombre" type="text"></ion-input>
@@ -24,7 +24,7 @@
             <ion-label floating>UserName</ion-label>
             <ion-input [(ngModel)]="username" type="text"></ion-input>
         </ion-item>
-        
+
         <ion-item>
             <ion-label floating>Password</ion-label>
             <ion-input [(ngModel)]="password" type="password"></ion-input>
@@ -32,14 +32,13 @@
 
         <ion-item>
             <ion-label floating>Email</ion-label>
-            <ion-input  [(ngModel)]="email" type="email"></ion-input>
+            <ion-input [(ngModel)]="email" type="email"></ion-input>
         </ion-item>
 
     </ion-list>
 
     <div padding>
-      <button ion-button color="primary" block (click)="clickSave()" >Guardar</button>
+        <button ion-button color="primary" block (click)="clickSave()">Guardar</button>
     </div>
-  
-  </ion-content>
-  
+
+</ion-content>
